@@ -16,6 +16,3 @@ Archive:  Code_Complete_Structure.zip
         0  07-09-2021 17:03   normal/
 ---------                     -------
 1051147255                     7 files
-
-Ernani
-sjdhkjashdkjashdkjhasjkd
