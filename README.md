@@ -15,7 +15,7 @@ Source: [Machine Fault Simulator](https://spectraquest.com/machinery-fault-simul
 
 For more details, reach the MAFAULDA project as mentioned on the link above.
 
-## Dataset format
+## Dataset format:
 
 This database is composed of 1951 multivariate time-series acquired by sensors on a SpectraQuest's Machinery Fault Simulator (MFS) Alignment-Balance-Vibration (ABVT). The 1951 comprises six different simulated states: normal function, imbalance fault, horizontal and vertical misalignment faults and, inner and outer bearing faults. This section describes the database.
 
