@@ -43,6 +43,7 @@ And making a simple exploratory analysis, that is what the data extract from the
 
 4 - If you wish and you can use our trained model CNNmodel.h5, LTSMmodel.h5
 
+5 - Feel free to fork it too ;ˆ)
 
 ## Group:
 
