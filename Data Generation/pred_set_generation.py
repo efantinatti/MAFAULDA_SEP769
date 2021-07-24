@@ -1,5 +1,6 @@
 import numpy as np
 import glob
+# Start here
 
 no_points = 500;
 choice = 1;
