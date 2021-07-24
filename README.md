@@ -33,6 +33,16 @@ And making a simple exploratory analysis, that is what the data extract from the
 
 ![Dataset](https://fantinatti.com/ds/Dataset.gif)
 
+## Instructions:
+
+1 - Download the dataset from [ Kaggle - Machinery Fault Dataset](https://www.kaggle.com/uysalserkan/fault-induction-motor-dataset). The files expected 'normal' and 'imbalance' datasets only.
+
+2 - After you have cloned this repo, you should execute <XTZ.py>
+
+3 - It will work on file ETL before training the model.
+
+4 - If you wish and you can use our trained model CNNmodel.h5, LTSMmodel.h5
+
 
 ## Group:
 
