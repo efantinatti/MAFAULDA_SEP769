@@ -12,8 +12,8 @@ if choice == 1:
     for f_on in files_no:
         if (i%4 == 0):
             source_data = np.loadtxt(f_on, delimiter=",")
-            for j in range(1,11):
-                A = source_data[20000*j:20000*j+no_points,:]
+            for j in range(1,61):
+                A = source_data[3000*j:3000*j+no_points,:]
                 pred_data = np.append(pred_data,A.reshape(1, A.shape[0],A.shape[1]),axis=0)
 
         i=i+1
@@ -37,8 +37,8 @@ if choice == 1:
     pred_reshaped = np.reshape(pred_data,(-1,8))
 
     
-    np.savetxt("pred_data.txt", pred_reshaped)
+    np.savetxt("D:\SEP769_DeepLearning\jul26data\pred_data.txt", pred_reshaped)
 
-    np.savetxt("pred_label.txt", pred_label)
+    np.savetxt("D:\SEP769_DeepLearning\jul26data\pred_label.txt", pred_label)
     
     print("Finished parsing the files")
