@@ -42,10 +42,10 @@ If running the code on a local machine:
 
 2 - After cloning this repo, execute "data_generation.py" under the Data Generation folder. This will produce the .txt files containing the data used to train and test the models. Ensure you specify the correct directory when generating the data. 
 
-If running on Google Colab, simply open the .ipynb files in colab and the organized data file will be pulled from a drive folder: https://drive.google.com/drive/folders/1_pItYOxXIWk7n0MG_U3W-wnRitWokBDe?usp=sharing
+If running on Google Colab, simply open the model .ipynb files in colab and the organized data file will be pulled from a drive folder: https://drive.google.com/drive/folders/1_pItYOxXIWk7n0MG_U3W-wnRitWokBDe?usp=sharing
 
 ### Running Models
-1 - Access either the LSTM or CNN model under the Models folder. Ensure you have specified the correct directory in which you saved the data files.
+1 - Open either the LSTM or CNN model under the Models folder in Google Colab
 
 2- If you wish to test the model without training, simply change the "saved_model" variable from 0 to 1. This will load the models from the .h5 files.
 
