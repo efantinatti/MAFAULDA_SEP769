@@ -46,11 +46,11 @@ test_label = np.append(test_label, np.ones(test_data.shape[0]-test_label.shape[0
 train_reshaped = np.reshape(train_data,(-1,8))
 test_reshaped = np.reshape(test_data,(-1,8))
 
-np.savetxt(dir + "train_data.txt", train_reshaped)
-np.savetxt(dir + "test_data.txt", test_reshaped)
+np.savetxt(dir + "jul27data/train_data.txt", train_reshaped)
+np.savetxt(dir + "jul27data/test_data.txt", test_reshaped)
 
 
-np.savetxt(dir + "train_label.txt", train_label)
-np.savetxt(dir + "test_label.txt", test_label)
+np.savetxt(dir + "jul27data/train_label.txt", train_label)
+np.savetxt(dir + "jul27data/test_label.txt", test_label)
 
 print("Finished parsing the files")
