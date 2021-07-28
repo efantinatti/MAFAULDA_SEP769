@@ -35,15 +35,19 @@ And making a simple exploratory analysis, that is what the data extract from the
 
 ## Instructions:
 
+### Generating data files
+If running the code on a local machine:
+
 1 - Download the dataset from [ Kaggle - Machinery Fault Dataset](https://www.kaggle.com/uysalserkan/fault-induction-motor-dataset). The files expected 'normal' and 'imbalance' datasets only.
 
-2 - After you have cloned this repo, you should execute <XTZ.py>
+2 - After cloning this repo, execute "data_generation.py" under the Data Generation folder. This will produce the .txt files containing the data used to train and test the models. Ensure you specify the correct directory when generating the data. 
 
-3 - It will work on file ETL before training the model.
+If running on Google Colab, simply open the .ipynb files in colab and the organized data file will be pulled from a drive folder: https://drive.google.com/drive/folders/1_pItYOxXIWk7n0MG_U3W-wnRitWokBDe?usp=sharing
 
-4 - If you wish and you can use our trained model CNNmodel.h5, LTSMmodel.h5
+### Running Models
+1 - Access either the LSTM or CNN model under the Models folder. Ensure you have specified the correct directory in which you saved the data files.
 
-5 - Feel free to fork it too ;ˆ)
+2- If you wish to test the model without training, simply change the "saved_model" variable from 0 to 1. This will load the models from the .h5 files.
 
 ## Group:
 
